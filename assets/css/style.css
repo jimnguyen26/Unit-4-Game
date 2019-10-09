@@ -1,0 +1,23 @@
+h1 {
+    font-size: 40px;
+}
+
+body {
+    background-image: url(/assets/images/backgroundpic.jpg);
+}
+
+.container-1 {
+    background-color: #c36a2d;
+    color: white;
+    width: 350px;
+    font-size: 35px;
+}
+
+p {
+    
+}
+
+.container-2 {
+    background-color: #eadca6;
+    color: #587850;
+}
