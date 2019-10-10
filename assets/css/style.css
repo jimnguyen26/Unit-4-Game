@@ -1,10 +1,12 @@
 h1 {
     font-size: 40px;
 }
-/* ../images/backgroundpic.jpg */
+/* ../images/backgroundpic.jpg https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHWT_Mm_7W0fyLMYzeUFZ1YskMx-IAFrO1Y6GroEowgaf1pZ8A */
 body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHWT_Mm_7W0fyLMYzeUFZ1YskMx-IAFrO1Y6GroEowgaf1pZ8A);
+    background-image: url(../images/backgroundpic.jpg);
 }
+
+
 
 .container-1 {
     background-color: #c36a2d;
