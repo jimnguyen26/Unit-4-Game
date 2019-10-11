@@ -34,6 +34,63 @@ line-height: 23px;
     
 }
 
-.card1, .card2 {
+.card1 {
     background-color: #83b582;
+}
+
+.card-title3 {
+    font-size: 40px;
+    color: rebeccapurple;
+    width: 200px;
+}
+
+.card2 {
+    background-color: #305f72;
+}
+
+.btn-secondary1 {
+    font-size: 50px;
+    background-color: seashell;
+    width: 120px;
+    right: 14px;
+    color: #e4508f;
+}
+
+.btn-secondary2 {
+    font-size: 50px;
+    background-color: seashell;
+    width: 120px;
+    margin-right: 14px;
+    color: #e4508f;
+}
+
+.btn-secondary3 {
+    font-size: 50px;
+    background-color: seashell;
+    width: 120px;
+    margin-right: 14px;
+    color: #e4508f;
+}
+
+.btn-secondary4 {
+    font-size: 50px;
+    background-color: seashell;
+    width: 120px;
+    color: #e4508f;
+}
+
+.form-control1 {
+    width: 340px;
+    height: 80px;
+    background-color: #4baea0;
+    margin: 11px;
+    font-size: 30px;
+}
+
+.form-control2 {
+    width: 340px;
+    height: 150px;
+    background-color: #4baea0;
+    margin: 11px;
+    font-size: 30px;
 }
