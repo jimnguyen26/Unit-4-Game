@@ -38,6 +38,10 @@ line-height: 23px;
     background-color: #83b582;
 }
 
+.card-title2 {
+    text-align: center;
+}
+
 .card-title3 {
     font-size: 40px;
     color: rebeccapurple;
@@ -48,7 +52,7 @@ line-height: 23px;
     background-color: #305f72;
 }
 
-.btn-secondary1 {
+.btnSecondary1 {
     font-size: 50px;
     background-color: seashell;
     width: 120px;
@@ -56,7 +60,7 @@ line-height: 23px;
     color: #e4508f;
 }
 
-.btn-secondary2 {
+.btnSecondary2 {
     font-size: 50px;
     background-color: seashell;
     width: 120px;
@@ -64,7 +68,7 @@ line-height: 23px;
     color: #e4508f;
 }
 
-.btn-secondary3 {
+.btnSecondary3 {
     font-size: 50px;
     background-color: seashell;
     width: 120px;
@@ -72,7 +76,7 @@ line-height: 23px;
     color: #e4508f;
 }
 
-.btn-secondary4 {
+.btnSecondary4 {
     font-size: 50px;
     background-color: seashell;
     width: 120px;
@@ -93,4 +97,8 @@ line-height: 23px;
     background-color: #4baea0;
     margin: 11px;
     font-size: 30px;
+}
+
+.total {
+    margin-left: 20px;
 }
