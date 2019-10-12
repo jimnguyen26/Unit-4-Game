@@ -58,6 +58,7 @@ line-height: 23px;
     width: 120px;
     right: 14px;
     color: #e4508f;
+    background-image: url(../images/pic1.jpeg);
 }
 
 .btnSecondary2 {
@@ -66,14 +67,17 @@ line-height: 23px;
     width: 120px;
     margin-right: 14px;
     color: #e4508f;
+    background-image: url(../images/pic2.jpeg);
 }
 
 .btnSecondary3 {
     font-size: 50px;
     background-color: seashell;
     width: 120px;
+    height: 120px;
     margin-right: 14px;
     color: #e4508f;
+    background-image: url(../images/pic3.jpeg);
 }
 
 .btnSecondary4 {
@@ -81,6 +85,7 @@ line-height: 23px;
     background-color: seashell;
     width: 120px;
     color: #e4508f;
+    background-image: url(../images/pic4.jpeg);
 }
 
 .form-control1 {

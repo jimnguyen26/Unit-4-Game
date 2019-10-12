@@ -14,6 +14,7 @@ var wins= 0;
 var losses= 0;
 var score= 0;
 
+
 $('#randomNumber').html(random);
 $('.wins').html(wins);
 $('.losses').html(losses);
@@ -41,21 +42,58 @@ function winning(){
     alert("You win!");
     wins++;
     $('.wins').html(wins);
+    
 }
 
 function losing() {
     alert("You lose!");
     losses++;
     $('.losses').html(losses);
+    
 }
 
-$('.btnSecondary1').on('click', function(){
+$('.btnSecondary1').on('click', function() {
 total = total + btnSecondary1;
 console.log(total);
 $('#score').html(total);
 if (total === random) {
     winning();
 }
+    else if (total > random) {
+        losing();
+    }
+});
+
+$('.btnSecondary2').on('click', function() {
+total = total + btnSecondary2;
+console.log(total);
+$('#score').html(total);
+if (total === random) {
+    winning();
+}
+    else if (total > random) {
+        losing();
+    }
+});
+
+$('.btnSecondary3').on('click', function() {
+total = total + btnSecondary2;
+console.log(total);
+$('#score').html(total);
+if (total === random) {
+    winning();
+    }
+    else if (total > random) {
+        losing();
+    }
+});
+$('.btnSecondary4').on('click', function() {
+total = total + btnSecondary2;
+console.log(total);
+$('#score').html(total);
+if (total === random) {
+    winning();
+    }
     else if (total > random) {
         losing();
     }
