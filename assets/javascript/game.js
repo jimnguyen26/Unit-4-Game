@@ -12,15 +12,19 @@ var btnSecondary4= Math.floor(Math.random() * 11 +1)
 var total= 0;
 var wins= 0;
 var losses= 0;
+var score= 0;
 
-$('#randomNumber').text(random);
-$('.wins').text(wins);
-$('.losses').text(losses);
-$('.total').text(total);
+$('#randomNumber').html(random);
+$('.wins').html(wins);
+$('.losses').html(losses);
+$('#score').html(score);
+
+
 
 function reset() {
 random=Math.floor(Math.random() * 101 + 19);
 };
+
 console.log(random);
 
 btnSecondary1= Math.floor(Math.random() * 11 + 1);
@@ -31,5 +35,29 @@ btnSecondary3= Math.floor(Math.random() * 11 + 1);
 console.log(btnSecondary3);
 btnSecondary4= Math.floor(Math.random() * 11 + 1);
 console.log(btnSecondary4);
-});
 
+
+function winning(){
+    alert("You win!");
+    wins++;
+    $('.wins').html(wins);
+}
+
+function losing() {
+    alert("You lose!");
+    losses++;
+    $('.losses').html(losses);
+}
+
+$('.btnSecondary1').on('click', function(){
+total = total + btnSecondary1;
+console.log(total);
+$('#score').html(total);
+if (total === random) {
+    winning();
+}
+    else if (total > random) {
+        losing();
+    }
+});
+});

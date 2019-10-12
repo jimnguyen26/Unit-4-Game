@@ -102,3 +102,10 @@ line-height: 23px;
 .total {
     margin-left: 20px;
 }
+
+#score {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color: seashell;
+}
